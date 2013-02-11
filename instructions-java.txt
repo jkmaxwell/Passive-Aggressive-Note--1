@@ -1,0 +1,9 @@
+public class Fridge {
+  Queue <Beverage> beverages;
+  ...
+  public Beverage takeColdestBeverageCourteously(Beverage warmOne) {
+    Beverage coldOne = this.beverages.dequeue();
+    this.beverages.enqueue(warmOne);
+    return coldOne;
+  }
+}
