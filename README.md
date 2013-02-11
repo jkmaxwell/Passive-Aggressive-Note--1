@@ -27,3 +27,4 @@ At Mint.com, in the 280 Hope St. days, we had a refrigerator. In this refrigerat
 - Jason Yiin
 - [Jason Putorti](/putorti)
 - [Justin Maxwell](/jkmaxwell)
+- [Matt Richards](/mattrichards)
