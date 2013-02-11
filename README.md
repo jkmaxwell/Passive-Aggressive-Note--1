@@ -23,6 +23,7 @@ At Mint.com, in the 280 Hope St. days, we had a refrigerator. In this refrigerat
 
 # Credits & GitHub links, alphabetically
 - Atish Mehta
+- [Danilo Campos](/daniloc)
 - [David Chambers](/davidchambers)
 - Jason Yiin
 - [Jason Putorti](/putorti)
