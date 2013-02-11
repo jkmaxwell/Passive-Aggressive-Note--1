@@ -10,7 +10,7 @@
 
 @interface Fridge ()
 
-NSMutableArray *beverages;
+@property (strong, nonatomic) NSMutableArray *beverages;
 
 @end
 
