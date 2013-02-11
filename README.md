@@ -1,3 +1,5 @@
+![Preview](http://f.cl.ly/items/0o0s202f102S373X3A2p/Image%202013.02.10%205:52:14%20PM.png)
+
 Passive-Aggressive Note #1
 ==========================
 
@@ -19,8 +21,8 @@ At Mint.com, in the 280 Hope St. days, we had a refrigerator. In this refrigerat
 - Edit the graffle file and add it as another layer if you know how to use OmniGraffle
 - Improve the diagram, or supplement it with additional diagrams specific to your situation
 
-# Credits, alphabetically
+# Credits & GitHub links, alphabetically
 - Atish Mehta
 - Jason Yiin
-- Jason Putorti
-- Justin Maxwell
+- [Jason Putorti](/putorti)
+- [Justin Maxwell](/jkmaxwell)
