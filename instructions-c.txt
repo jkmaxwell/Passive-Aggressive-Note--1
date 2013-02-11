@@ -1,0 +1,23 @@
+typedef struct beverage_queue {
+   beverage_t *tasty_beverage;
+   struct beverage_queue *next;
+} beverage_queue_t;
+
+static beverage_queue_t *queue;
+
+beverage_t *take_coldest_beverage_courteously(beverage_t *warm_one) {
+    // Dequeue cold beverage.
+    beverage_queue_t *first = queue;
+    queue = queue->next;
+    beverage_t *cold_one = first->tasty_beverage;
+    free(first);
+    // Enqueue warm beverage.
+    beverage_queue_t **curr = &queue;
+    while (*curr) {
+       curr = &((*curr)->next);
+    }
+    *curr = malloc(sizeof(**curr));
+    (*curr)->tasty_beverage = warm_one;
+    (*curr)->next = NULL;
+    return cold_one;
+}
