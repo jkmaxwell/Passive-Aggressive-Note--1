@@ -18,10 +18,15 @@ NSMutableArray *beverages;
 
 - (Beverage *)coldestBeverageWithReplacement:(Beverage *)warmBeverage
 {
-    Beverage *coldOne = self.beverages[0];
-    [self.beverages addObject:warmBeverage];
-    return coldOne;
+    Beverage *coldOne = nil;
     
+    if (self.beverages.count > 0)
+        coldOne = self.beverages[0];
+    
+    if (warmBeverage != nil)    
+        [self.beverages addObject:warmBeverage];
+    
+    return coldOne;
 }
 
 @end
