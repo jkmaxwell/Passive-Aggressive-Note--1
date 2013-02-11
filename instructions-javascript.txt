@@ -1,0 +1,19 @@
+/*
+ To use:
+ var fridge = new Fridge();
+ or
+ var fridge = new Fridge(['coke', 'dr. pepper', 'grape soda', 'orange juice']);
+ */
+function Fridge(beverages) {
+    this.beverages = beverages || [];
+}
+Fridge.prototype = {
+    ...
+    takeColdestBeverageCourteously: function(warmOne) {
+        this.beverages.push(warmOne);
+        return this.beverages.shift();
+    },
+    youKnowWhoYouAre: function() {
+        return this.beverages.shift();
+    }
+}
