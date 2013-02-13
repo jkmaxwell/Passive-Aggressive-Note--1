@@ -23,10 +23,10 @@ At Mint.com, in the 280 Hope St. days, we had a refrigerator. In this refrigerat
 
 # Credits & GitHub links, alphabetically
 - Atish Mehta
-- [Danilo Campos](/daniloc)
-- [David Chambers](/davidchambers)
+- [Danilo Campos](https://github.com/daniloc)
+- [David Chambers](https://github.com/davidchambers)
 - Jason Yiin
-- [Jason Putorti](/putorti)
-- [Justin Maxwell](/jkmaxwell)
-- [Matt Richards](/mattrichards)
-- [Matt Snider](/mattsnider)
+- [Jason Putorti](https://github.com/putorti)
+- [Justin Maxwell](https://github.com/jkmaxwell)
+- [Matt Richards](https://github.com/mattrichards)
+- [Matt Snider](https://github.com/mattsnider)
